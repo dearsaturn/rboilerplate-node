@@ -1,4 +1,4 @@
-# rchat
+# rboilerplate
 >A BREW (Babel, Express, React, Webpack) pipeline for small single-page apps in Node.
 
 ### Building and running in production (npm start)
