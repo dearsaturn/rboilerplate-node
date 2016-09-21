@@ -1,0 +1,47 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:flowtype/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true,
+        "jsx": true,
+        "classes": true
+      }
+    },
+    "plugins": [
+      "react",
+      "jsx-a11y",
+      "import",
+      "flowtype"
+    ],
+    "rules": {
+      "indent": [
+        "error",
+        2,
+        { "SwitchCase": 1 }
+      ],
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "never"
+      ],
+      "max-len": ["error", 100],
+      "no-magic-numbers": "error",
+      "no-undef": "off",
+      "no-unused-vars": "off",
+      "react/display-name": "off",
+      "react/react-in-jsx-scope": "off",
+      "react/jsx-no-undef": "off"
+    }
+}
